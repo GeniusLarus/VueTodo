@@ -10,6 +10,10 @@ export default new Router({
     {
       path: '/',
       component: Home
+    },
+    {
+      path: '/todos',
+      component: () => import('@/views/Todos')
     }
   ]
 })
