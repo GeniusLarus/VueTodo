@@ -8,6 +8,15 @@
 </template>
 
 <style>
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  transition: .4s ease;
+}
+a:hover {
+  text-shadow: 1px 1px 1px #000;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
